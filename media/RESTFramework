@@ -1,0 +1,2 @@
+endPOINT
+python manage.py collectstatic

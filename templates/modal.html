@@ -1,0 +1,27 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="{% static 'css/modal.css' %}" rel="stylesheet">
+    <script class="u-script" type="text/javascript" src="{% static 'js/modal.js' %}" defer=""></script>
+    <title>Title</title>
+      <!-- Модальное содержание -->
+    <div class="modal-content">
+      <div class="modal-header">
+        <span class="close">&times;</span>
+        <h2>Модальный заголовок</h2>
+      </div>
+      <div class="modal-body">
+        <p>Некоторый текст в модальном теле</p>
+        <p>Какой-то другой текст...</p>
+      </div>
+      <div class="modal-footer">
+        <h3>Модальный нижний колонтитул</h3>
+      </div>
+</div>
+</head>
+<body>
+
+</body>
+</html>

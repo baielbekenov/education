@@ -1,0 +1,11 @@
+sqlcmd -S 127.0.0.1 -U SA
+sqlcmd -S localhost -U SA -P '<YourPassword>'
+SELECT Name from sys.Databases
+CREATE DATABASE TestDB
+
+
+Select data:
+SELECT * FROM Inventory WHERE quantity > 152;
+GO
+QUIT
+

@@ -1,0 +1,55 @@
+function based view 
+class based view generic
+чтобы вызвать класс бейзд вию на до вызвать as_view()
+django.fun мателиар для изучение моделей джанго
+djbook.ru
+rest_framework.permissions import IsAuthenticated
+from rest_framework.authentification import TokenAuthentification
+pip install djoser это расширение позволяет использовать токены для автроизации пользователя
+rest_framework.authtoken
+
+
+fields
+'AutoField', 
+'BLANK_CHOICE_DASH', 
+'BigAutoField',
+ 'BigIntegerField',
+    'BinaryField', 
+    'BooleanField', 
+    'CharField',
+     'CommaSeparatedIntegerField',
+     
+    'DateField',
+     'DateTimeField',
+      'DecimalField',
+       'DurationField',
+       
+    'EmailField',
+     'Empty',
+      'Field',
+       'FilePathField'
+       , 'FloatField',
+    'GenericIPAddressField',
+     'IPAddressField',
+      'IntegerField', 
+      'NOT_PROVIDED',
+    'NullBooleanField',
+     'PositiveBigIntegerField',
+      'PositiveIntegerField',
+    'PositiveSmallIntegerField', 
+    'SlugField',
+     'SmallAutoField',
+    'SmallIntegerField',
+     'TextField',
+      'TimeField'
+      , 'URLField',
+       'UUIDField',
+       
+       ImageField
+       ImageFieldFile
+       ImageFileDescriptor
+       FileField
+       FileDescriptor
+       FieldFile
+       
+       
