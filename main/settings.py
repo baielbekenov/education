@@ -136,7 +136,7 @@ STATICFILES_DIRS = (
 LOGIN_REDIRECT_URL = '/'
 
 import dj_database_url
-db_from_env = dj_database_url.config
+db_from_env = dj_database_url.config()
 DATABASES['default'].update(db_from_env)
 
 # Default primary key field type
