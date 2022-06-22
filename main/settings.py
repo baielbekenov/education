@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-t5n$f+!w585zd^kl*!k)%kcwbhfv)eyixwo_&t0q=@lyy9ti)a'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ["*"]
 
@@ -144,7 +144,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 MEDIA_URL = '/media/'
 
-# STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 STATICFILES_DIRS = (
@@ -154,7 +154,7 @@ STATICFILES_DIRS = (
 LOGIN_REDIRECT_URL = '/'
 # STATICFILES_STORAGE = "whitenoise.storage.CompressedStaticFilesStorage"
 #
-import dj_database_url
+
 db_from_env = dj_database_url.config()
 
 # Default primary key field type
