@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-t5n$f+!w585zd^kl*!k)%kcwbhfv)eyixwo_&t0q=@lyy9ti)a
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -126,7 +126,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 MEDIA_URL = '/media/'
 
-STATIC_ROOT = ''
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 STATICFILES_DIRS = (
@@ -135,6 +135,9 @@ STATICFILES_DIRS = (
 
 LOGIN_REDIRECT_URL = '/'
 
+import dj_database_url
+db_from_env = dj_database_url.config
+DATABASES['default'].update(db_from_env)
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
