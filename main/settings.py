@@ -149,7 +149,6 @@ LOGIN_REDIRECT_URL = '/'
 #
 import dj_database_url
 db_from_env = dj_database_url.config()
-# DATABASES['default'].update(db_from_env)
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
