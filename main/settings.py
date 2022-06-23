@@ -80,10 +80,10 @@ AUTH_USER_MODEL = 'edu.User'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'education',
-        'USER': 'postgres',
-        'PASSWORD': 'postgres',
-        'HOST': '127.0.0.1',
+        'NAME': 'd76lflagmj2i97',
+        'USER': 'nzfnrduohkcqac',
+        'PASSWORD': 'b85e526e74876bf3e764d164a62e42c42f4ed82a77205dd7dee121c2ebf5f4e8',
+        'HOST': 'ec2-34-231-221-151.compute-1.amazonaws.com',
         'PORT': 5432,
     }
 }
